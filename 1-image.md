@@ -19,11 +19,15 @@ Descargar la imagen **hello-world**
 # COMPLETAR
 
 **¿Qué es nginx?**
+
 Nginx es un software de servidor web que también funciona como proxy inverso y balanceador de carga, encargado de recibir las solicitudes de los usuarios y responder entregando contenido web o redirigiéndolas a otros servidores; se utiliza para servir páginas, distribuir tráfico y mejorar el rendimiento de aplicaciones, destacándose por su alta eficiencia y capacidad de manejar miles de conexiones simultáneas con bajo consumo de recursos.
 
 # COMPLETAR 
 
 Descargar la imagen  **nginx** en la versión **alpine**
+
+docker pull nginx:alpine
+
 # COMPLETAR
 
 ### Listar imágenes
