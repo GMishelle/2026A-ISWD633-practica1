@@ -14,9 +14,13 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
+<img width="813" height="205" alt="image" src="https://github.com/user-attachments/assets/909c004c-e0c1-483f-b15c-b74362725d04" />
+
 # COMPLETAR
 
 **¿Qué es nginx?**
+Nginx es un software de servidor web que también funciona como proxy inverso y balanceador de carga, encargado de recibir las solicitudes de los usuarios y responder entregando contenido web o redirigiéndolas a otros servidores; se utiliza para servir páginas, distribuir tráfico y mejorar el rendimiento de aplicaciones, destacándose por su alta eficiencia y capacidad de manejar miles de conexiones simultáneas con bajo consumo de recursos.
+
 # COMPLETAR 
 
 Descargar la imagen  **nginx** en la versión **alpine**
