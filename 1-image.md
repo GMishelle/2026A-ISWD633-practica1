@@ -16,28 +16,19 @@ docker pull <nombre imagen>:<tag>
 Descargar la imagen **hello-world**
 <img width="813" height="205" alt="image" src="https://github.com/user-attachments/assets/909c004c-e0c1-483f-b15c-b74362725d04" />
 
-# COMPLETAR
-
 **¿Qué es nginx?**
 
 Nginx es un software de servidor web que también funciona como proxy inverso y balanceador de carga, encargado de recibir las solicitudes de los usuarios y responder entregando contenido web o redirigiéndolas a otros servidores; se utiliza para servir páginas, distribuir tráfico y mejorar el rendimiento de aplicaciones, destacándose por su alta eficiencia y capacidad de manejar miles de conexiones simultáneas con bajo consumo de recursos.
 
-# COMPLETAR 
-
 Descargar la imagen  **nginx** en la versión **alpine**
 
 docker pull nginx:alpine
-
-# COMPLETAR
 
 ### Listar imágenes
 
 ```
 docker images
 ```
-
-# COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
-
 <img width="762" height="87" alt="image" src="https://github.com/user-attachments/assets/0c8a2507-734f-4edf-8b63-4e17147f605e" />
 
 **Identificadores**
@@ -56,13 +47,9 @@ Inspeccionar la imagen hello-world
 
 <img width="762" height="581" alt="image" src="https://github.com/user-attachments/assets/57d63e29-d94a-469a-81d4-56e6080d2c5a" />
 
-# COMPLETAR
-
 **¿Con qué algoritmo se está generando el ID de la imagen**
 
 El ID de una imagen se genera mediante un algoritmo de hash criptográfico llamado SHA-256, el cual toma el contenido de la imagen (como sus capas y configuración) y produce un identificador único.
-
-# COMPLETAR
 
 ### Filtrar imágenes
 
@@ -79,7 +66,8 @@ docker rmi <nombre imagen>:<tag>
 ```
 
 Eliminar la imagen hello-world 
-# COMPLETAR
+
+<img width="709" height="57" alt="image" src="https://github.com/user-attachments/assets/e9c243e8-fbe9-4073-812c-93eb32c53226" />
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
 Cuando eliminas una imagen Docker, Docker no elimina automáticamente los contenedores que se han creado a partir de esa imagen. Esto significa que, aunque hayas eliminado la imagen, el contenedor seguirá ejecutándose normalmente.  
