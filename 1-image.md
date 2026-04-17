@@ -53,6 +53,9 @@ docker inspect <nombre imagen>:<tag>
 ```
 
 Inspeccionar la imagen hello-world 
+
+<img width="762" height="581" alt="image" src="https://github.com/user-attachments/assets/57d63e29-d94a-469a-81d4-56e6080d2c5a" />
+
 # COMPLETAR
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
