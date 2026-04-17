@@ -16,6 +16,9 @@ Crear un contenedor a partir de la imagen nginx version alpine con el mapeo de p
 
 # COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:3000
 
+<img width="545" height="291" alt="image" src="https://github.com/user-attachments/assets/902a2c9c-092a-4473-8144-92041066ddcf" />
+
+
 ### Para mapear más de un puerto
 
 ```
