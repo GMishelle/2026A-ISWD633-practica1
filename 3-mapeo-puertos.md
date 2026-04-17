@@ -30,6 +30,9 @@ Crear un contenedor a partir de la imagen rabbitmq version management-alpine, pa
 <img width="1344" height="431" alt="image" src="https://github.com/user-attachments/assets/5b0de336-712f-42a5-a05c-efc69640a85d" />
 
 
+<img width="1362" height="266" alt="image" src="https://github.com/user-attachments/assets/532e7d0d-4b65-4d7b-85cc-5ef01112f460" />
+
+
 ### Usando una forma más semántica cuando se especifican puertos
 
 ```
